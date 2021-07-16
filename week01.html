@@ -32,7 +32,7 @@
           <span v-if="status">清晰</span>
           <span v-else>模糊</span>
           <!-- <span class="ms-auto me-3">已使用次數：{{ clickNum }}</span> -->
-          <button class="btn btn-danger shadow me-3" @click="admirer">點擊查看你的神秘仰慕者</button>
+          <button class="btn btn-danger shadow ms-3" @click="admirer">點擊查看你的神秘仰慕者</button>
         </div>
         <div class="row">
           <div class="col-md-4 mb-3" v-for="(item, i) in peopleList" :key="item.id.name">
