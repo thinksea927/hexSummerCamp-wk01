@@ -125,7 +125,7 @@
           }
         },
         mounted() {
-          const url = 'https:/randomuser.me/api/?results=6';
+          const url = 'https://randomuser.me/api/?results=6';
           axios.get(url)
           .then( (res) => {
             this.peopleList = res.data.results;
